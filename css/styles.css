@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('../img/fon.png');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* блок */
+
+.container {
+    align-items: center;
+    height: 547px;
+    width: 458px;
+    background-color: rgba(21,41,51, 0.7);
+    border-radius: 10px;
+    position: relative;
+    margin: 100px auto;
+}
+
+/* голова блока */
+
+.header nav {
+    padding-top: 40px;
+    padding-left: 53px;
+}
+
+.header nav li{
+    font-size: 20px;
+    color: #fff;
+    list-style-type: none;
+    float: left;
+    margin: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: rgb(0, 119, 255);
+}
+
+/* аватарка */
+
+.ava {
+    padding-top: 65px;
+    text-align: center;
+}
+
+.ava img {
+    text-align: center;
+    max-width: 300px;
+}
+
+.contact {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.contact img {
+    max-width: 65px;
+    margin: 5px;
+}
+
+@media (max-width: 1080px) {
+    .container {
+        margin: 10% auto;
+    }
+}
